@@ -1,4 +1,12 @@
 package com.example
+
+
 fun main() {
-    println("Hello World")
+    val time = 20
+    if (time < 18) {
+        println("Good day.")
+    } else {
+        println("Good evening.")
+    }
+// Outputs "Good evening."
 }
